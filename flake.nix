@@ -27,6 +27,7 @@
           nativeBuildInputs = [
             # nodejs
             pkgs.nodePackages.nodejs
+            pkgs.nodePackages.pnpm
 
             # LSP
             pkgs.nil
