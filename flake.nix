@@ -37,7 +37,11 @@
         {
           treefmt = {
             projectRootFile = "flake.nix";
+
+            # Nix
             programs.nixfmt.enable = true;
+
+            # GitHub Actions
             programs.actionlint.enable = true;
           };
 
